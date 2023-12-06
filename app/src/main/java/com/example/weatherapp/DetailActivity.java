@@ -25,8 +25,8 @@ public class DetailActivity extends AppCompatActivity {
         setContentView(R.layout.activity_detail);
 
         Intent myintent = getIntent();
-        latitud = myintent.getFloatExtra("lat", 0.0f);
-        longitud = myintent.getFloatExtra("lon", 0.0f);
+        latitud = myintent.getFloatExtra("lat", 0.0F);
+        longitud = myintent.getFloatExtra("lon", 0.0F);
 
 
         nameOfCity = findViewById(R.id.tvCiudad);

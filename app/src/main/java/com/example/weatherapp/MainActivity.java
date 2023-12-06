@@ -36,8 +36,8 @@ public class MainActivity extends AppCompatActivity {
         //myIntent.putExtra("nombreCiudad", "Campana");
 
         // En la api 4 ponemos:
-        myIntent.putExtra("lat", "-34.1633");
-        myIntent.putExtra("lon", "-58.9592");
+        myIntent.putExtra("lat", -34.1633f);
+        myIntent.putExtra("lon", -58.9592f);
         startActivity(myIntent);
     }
 }
